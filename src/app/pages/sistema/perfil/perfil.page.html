@@ -1,0 +1,51 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>perfil</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content [fullscreen]="true" id="container">
+  <ion-header>
+    <ion-segment-button value="planet" routerLink="/login">
+      <ion-icon name="exit-outline"></ion-icon>
+    </ion-segment-button >
+  </ion-header>
+  <ion-grid id="bloco1">
+    <ion-row>
+      <ion-col> 
+        <ion-avatar>
+          <img alt="Silhouette of a person's head" src="../../../../assets/imgs/celInfoFundBrabco.gif" style="width: 100%; height:  100%;"/>
+        </ion-avatar>       
+      </ion-col>
+      <ion-col>
+        <ion-row>
+          <ion-title size="large">Ana Pinheiro</ion-title>
+        </ion-row>
+        <ion-row>
+          <ion-title size="small"> Bem vindo ao meu registro</ion-title>       
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  
+  <ion-grid id="bloco2">
+    <ion-row>
+      <ion-title size="small" weight="bolder">Minhas Leituras</ion-title>
+    </ion-row>
+    <swiper-container [slidesPerView]="3" #swiper>
+      <swiper-slide>
+        <img src="../../../../assets/imgs/Book Club Inicio.png" alt="">
+      </swiper-slide>
+      <swiper-slide> <img src="../../../../assets/imgs/Book Club Inicio.png" alt=""></swiper-slide>
+      <swiper-slide> <img src="../../../../assets/imgs/Book Club Inicio.png" alt=""></swiper-slide>
+      <swiper-slide>
+        <img src="../../../../assets/imgs/Book Club Inicio.png" alt="">
+      </swiper-slide>
+      <swiper-slide> <img src="../../../../assets/imgs/Book Club Inicio.png" alt=""></swiper-slide>
+      <swiper-slide> <img src="../../../../assets/imgs/Book Club Inicio.png" alt=""></swiper-slide>
+    </swiper-container>
+  
+  </ion-grid>
+ 
+</ion-content>

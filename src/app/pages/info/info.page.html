@@ -1,0 +1,32 @@
+<ion-content [fullscreen]="true" id="container">
+  <div id="bloco1">
+    <ion-header ><span class="tituloDestaque">Registre</span> os livros que você lê.</ion-header>
+    <img src="../../assets/imgs/Book Club Inicio.png" class="img" alt="Descrição da Imagem">
+  </div>
+  <div id="bloco2">
+    <ion-header ><span class="tituloDestaque">Descubra</span> novos universos literários.</ion-header>
+    <img src="../../assets/imgs/celInfo.gif" class="img" alt="Descrição da Imagem">
+  </div>
+  <div id="bloco3">
+    <ion-header ><span class="tituloDestaque">Organize</span> todos os livros que você já leu.</ion-header>
+    <img src="../../assets/imgs/livrosInfo.gif" class="img" alt="Descrição da Imagem">
+  </div>
+
+  <div id="bloco4">
+    <ion-segment [scrollable]="true" (ionChange)="onSegmentChange($event)" value="heart">
+      <ion-segment-button value="heart1">
+        <ion-icon name="book"></ion-icon>
+      </ion-segment-button>
+      <ion-segment-button value="heart2">
+        <ion-icon name="book"></ion-icon>
+      </ion-segment-button>
+      <ion-segment-button value="heart3">
+        <ion-icon name="book"></ion-icon>
+      </ion-segment-button>
+    </ion-segment>
+    <br>
+    <ion-button id="btn" routerLink="/login">Login</ion-button>
+  </div>
+
+ 
+</ion-content>

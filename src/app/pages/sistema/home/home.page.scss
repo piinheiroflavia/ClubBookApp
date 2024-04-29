@@ -1,0 +1,38 @@
+swiper-container {
+    --swiper-pagination-bullet-inactive-color: var(--ion-color-step-200, #cccccc);
+    --swiper-pagination-color: var(--ion-color-primary, #0054e9);
+    --swiper-pagination-progressbar-bg-color: rgba(var(--ion-text-color-rgb, 0, 0, 0), 0.25);
+    --swiper-scrollbar-bg-color: rgba(var(--ion-text-color-rgb, 0, 0, 0), 0.1);
+    --swiper-scrollbar-drag-bg-color: rgba(var(--ion-text-color-rgb, 0, 0, 0), 0.5);
+  }
+  
+  swiper-slide {
+    width: auto;
+    height: auto;
+  }
+  
+  swiper-slide img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+  }
+
+  ion-header{
+    margin: 20px 0px 10px 0px;
+    font-size: 1.8rem;
+    padding: 0px 4px;
+    box-shadow: none;
+    font-weight: bolder;
+}
+
+ion-searchbar{
+    border-radius: 50px;
+}
+
+#bloco1, #bloco2, #bloco3, #bloco4{
+  margin-top: 50px;
+}
+#tituloGeneros{
+  font-size: 1rem;
+}

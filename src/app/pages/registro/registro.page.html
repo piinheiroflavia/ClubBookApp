@@ -1,0 +1,49 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content [fullscreen]="true" id="container">
+  <ion-header>
+    <ion-segment-button value="arrow-back" routerLink="/info">
+      <ion-icon name="arrow-back"></ion-icon>
+    </ion-segment-button >
+  </ion-header>
+
+  <div id="bloco1">
+    <ion-title size="large" class="titulo">Registro</ion-title>
+    <ion-input label="Login" label-placement="floating" fill="outline" placeholder="digite seu login.." ></ion-input>
+    <br>
+    <ion-input label="Email" label-placement="floating" fill="outline" placeholder="digite seu email.." ></ion-input>
+    <br>
+    <ion-input label="Senha" type="password" label-placement="floating" fill="outline" placeholder="digite sua senha.." ></ion-input>
+    <br>
+    <ion-input label="Confirmar senha" type="password" label-placement="floating" fill="outline" placeholder="confirme sua senha.." ></ion-input>
+    <br>
+    <ion-button id="btn" routerLink="/tabs/home">Entrar</ion-button>
+    <br>
+    <ion-title size="small" id="titlePergunta">Já possui conta? cliquei aqui</ion-title>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <hr class="line">
+        </ion-col>
+        <ion-col>
+          <ion-title size="small" style="margin-left: 10px;">ou</ion-title>
+        </ion-col>
+        <ion-col>
+          <hr class="line">
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-button id="btnGoogle" size="small" routerLink="" shape="round" ><ion-icon name="logo-google"></ion-icon>.  Entrar com Google</ion-button>
+    
+   
+
+  </div>
+
+
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "ClubBookApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

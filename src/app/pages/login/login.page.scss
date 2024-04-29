@@ -1,0 +1,51 @@
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 0%;
+    margin: 0%; 
+}
+ion-header{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+}
+.titulo{
+    padding-left: 1px;
+    font-size: 2rem;
+    font-weight: bold;
+    --color: #1C2143;
+    padding-bottom: 10px;
+}
+ion-icon {
+    --color: #E66D70; 
+}
+#bloco1{
+    margin-top: 40px;
+    padding: 0px 20px;
+}
+#btn{
+    margin: 10px 0px 100px 0px;
+    border-radius: 1px;
+    font-size: 1.2rem;
+    --background: #1C2143;
+    --color: #fff;
+    width: 100%;
+}
+
+#btnGoogle {
+    --background: #fff;
+    --color: #000;
+    border-radius: 40px;
+    border: 1px solid #1C2143;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+}
+.line{
+    background-color: #1C2143 ;
+    border: 1px solid #1C2143;
+}

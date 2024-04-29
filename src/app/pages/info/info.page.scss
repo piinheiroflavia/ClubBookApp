@@ -1,0 +1,56 @@
+#container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 0%;
+    margin: 0%; 
+}
+#bloco1, #bloco2, #bloco3{
+    background: #1C2143;
+    color: #fff;
+    padding: 50px 0px 20px 0px;
+}
+#bloco2, #bloco3{
+    display: none;
+}
+ion-header{
+    font-size: 1.8rem;
+    padding: 0px 4px;
+    box-shadow: none;
+}
+.tituloDestaque {
+    font-weight: bold; 
+    color: #E66D70; 
+}
+
+.img {
+   height: auto; 
+   padding-top: 15%;
+}
+#btn{
+    margin-top: 10px;
+    border-radius: 1px;
+    font-size: 1rem;
+    --background: #1C2143;
+    --color: #fff;
+    width: 80%;
+}
+
+ion-segment-button {
+    --indicator-color: #E66D70;
+  }
+  
+  /* Material Design styles */
+  ion-segment-button.md {
+    --color: #1C2143;
+    --color-checked: #E66D70;
+    --indicator-height: 4px;
+  }
+  
+  /* iOS styles */
+  ion-segment-button.ios {
+    --color: #1C2143;
+    --color-checked: #fff;
+    --border-radius: 50px;
+  }
